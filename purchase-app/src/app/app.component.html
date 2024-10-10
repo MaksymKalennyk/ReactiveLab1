@@ -1,0 +1,5 @@
+<div class="page-header">
+  <h1>Список покупок</h1>
+</div>
+<app-shopping-form (addItem)="onItemAdded($event)"></app-shopping-form>
+<app-shopping-list [items]="items"></app-shopping-list>
